@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.title{
+	background-color: gray;
+	height: 100px;
+	width: 1080px;
+	margin: auto;
+}
+
+.title span{
+	font-size: 40px;
+	font-weight: 900;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	color: firebrick;
+	text-shadow: 4px 4px 0 white, 4px -4px 0 white, -4px -4px 0 white, -4px 4px 0 white, 4px 3px 0 white, 4px -3px 0 white, -4px -3px 0 white, -4px 3px 0 white, 4px 2px 0 white, 4px -2px 0 white, -4px -2px 0 white, -4px 2px 0 white, 4px 1px 0 white, 4px -1px 0 white, -4px -1px 0 white, -4px 1px 0 white, 4px 0px 0 white, 4px 0px 0 white, -4px 0px 0 white, -4px 0px 0 white, 3px 4px 0 white, 3px -4px 0 white, -3px -4px 0 white, -3px 4px 0 white, 3px 3px 0 white, 3px -3px 0 white, -3px -3px 0 white, -3px 3px 0 white, 3px 2px 0 white, 3px -2px 0 white, -3px -2px 0 white, -3px 2px 0 white, 3px 1px 0 white, 3px -1px 0 white, -3px -1px 0 white, -3px 1px 0 white, 3px 0px 0 white, 3px 0px 0 white, -3px 0px 0 white, -3px 0px 0 white, 2px 4px 0 white, 2px -4px 0 white, -2px -4px 0 white, -2px 4px 0 white, 2px 3px 0 white, 2px -3px 0 white, -2px -3px 0 white, -2px 3px 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white, -2px 2px 0 white, 2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white, -2px 1px 0 white, 2px 0px 0 white, 2px 0px 0 white, -2px 0px 0 white, -2px 0px 0 white, 1px 4px 0 white, 1px -4px 0 white, -1px -4px 0 white, -1px 4px 0 white, 1px 3px 0 white, 1px -3px 0 white, -1px -3px 0 white, -1px 3px 0 white, 1px 2px 0 white, 1px -2px 0 white, -1px -2px 0 white, -1px 2px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, -1px 1px 0 white, 1px 0px 0 white, 1px 0px 0 white, -1px 0px 0 white, -1px 0px 0 white, 0px 4px 0 white, 0px -4px 0 white, 0px -4px 0 white, 0px 4px 0 white, 0px 3px 0 white, 0px -3px 0 white, 0px -3px 0 white, 0px 3px 0 white, 0px 2px 0 white, 0px -2px 0 white, 0px -2px 0 white, 0px 2px 0 white, 0px 1px 0 white, 0px -1px 0 white, 0px -1px 0 white, 0px 1px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0 0 0 white;
+
+	
+	
+}
+.link{
+	height: 50px;
+	width: 1080px;
+	margin: auto;
+	background-color: brown;
+	border-top: 2px solid white;
+}
+
+.bottom{
+	height: 60px;
+	width: 1080px;
+	margin: auto;
+	background-color: gray;
+}
+.middle{
+	height: 800px;
+	width: 1080px;
+	margin: auto;
+	background-color: whitesmoke;
+	padding: 50px;
+}
+/* 上方母版 */
+
+
+
+
+
+
+.managemuen{
+	width: 360px;
+	padding-bottom: 20px;
+	border: 1px solid black;
+	text-align: center;
+	
+	
+}
+
+.muen_title{
+	background-color: firebrick;
+	height: 50px;
+}
+.managemuen p{
+	font-size: 29px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 5px;
+}
+.managemuen_2 p{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+}
+
+.managemuen_2{
+	width: 90%;
+	
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid black;
+	text-align: center;
+	border: none;
+	
+}
+
+.muen_title_2{
+	background-color: firebrick;
+	height: 50px;
+	border: 1px solid black;
+	border-bottom: none;
+}
+
+.muen_nav{
+	border: 1px solid black;
+	border-top: none;
+	width: 100%;
+	margin: auto;
+
+}
+.muen_nav p{
+	color: black;
+	font-weight: normal;
+}
+.selects{
+	width: 570px;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+	top: -400px;
+	float: right;
+	padding: 20px;
+}
+.compete_infm{
+	width: 570px;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+	top: -370px;
+	float: right;
+	padding: 20px;
+}
+.inline ul li{
+	list-style: none;
+	display: inline-block;
+}
+.project_ul li input{
+	padding: 10px;
+
+}

@@ -1,0 +1,159 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.title{
+	background-color: gray;
+	height: 100px;
+	width: 1080px;
+	margin: auto;
+}
+
+.title span{
+	font-size: 40px;
+	font-weight: 900;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	color: firebrick;
+	text-shadow: 4px 4px 0 white, 4px -4px 0 white, -4px -4px 0 white, -4px 4px 0 white, 4px 3px 0 white, 4px -3px 0 white, -4px -3px 0 white, -4px 3px 0 white, 4px 2px 0 white, 4px -2px 0 white, -4px -2px 0 white, -4px 2px 0 white, 4px 1px 0 white, 4px -1px 0 white, -4px -1px 0 white, -4px 1px 0 white, 4px 0px 0 white, 4px 0px 0 white, -4px 0px 0 white, -4px 0px 0 white, 3px 4px 0 white, 3px -4px 0 white, -3px -4px 0 white, -3px 4px 0 white, 3px 3px 0 white, 3px -3px 0 white, -3px -3px 0 white, -3px 3px 0 white, 3px 2px 0 white, 3px -2px 0 white, -3px -2px 0 white, -3px 2px 0 white, 3px 1px 0 white, 3px -1px 0 white, -3px -1px 0 white, -3px 1px 0 white, 3px 0px 0 white, 3px 0px 0 white, -3px 0px 0 white, -3px 0px 0 white, 2px 4px 0 white, 2px -4px 0 white, -2px -4px 0 white, -2px 4px 0 white, 2px 3px 0 white, 2px -3px 0 white, -2px -3px 0 white, -2px 3px 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white, -2px 2px 0 white, 2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white, -2px 1px 0 white, 2px 0px 0 white, 2px 0px 0 white, -2px 0px 0 white, -2px 0px 0 white, 1px 4px 0 white, 1px -4px 0 white, -1px -4px 0 white, -1px 4px 0 white, 1px 3px 0 white, 1px -3px 0 white, -1px -3px 0 white, -1px 3px 0 white, 1px 2px 0 white, 1px -2px 0 white, -1px -2px 0 white, -1px 2px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, -1px 1px 0 white, 1px 0px 0 white, 1px 0px 0 white, -1px 0px 0 white, -1px 0px 0 white, 0px 4px 0 white, 0px -4px 0 white, 0px -4px 0 white, 0px 4px 0 white, 0px 3px 0 white, 0px -3px 0 white, 0px -3px 0 white, 0px 3px 0 white, 0px 2px 0 white, 0px -2px 0 white, 0px -2px 0 white, 0px 2px 0 white, 0px 1px 0 white, 0px -1px 0 white, 0px -1px 0 white, 0px 1px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0px 0px 0 white, 0 0 0 white;
+
+	
+	
+}
+.link{
+	height: 50px;
+	width: 1080px;
+	margin: auto;
+	background-color: brown;
+	border-top: 2px solid white;
+}
+
+.bottom{
+	height: 60px;
+	width: 1080px;
+	margin: auto;
+	background-color: gray;
+}
+.middle{
+	height: 800px;
+	width: 1080px;
+	margin: auto;
+	background-color: whitesmoke;
+}
+/* 上方母版 */
+
+
+.loginview2{
+	height:320px;
+	width: 250px;
+	border: 1px solid black;
+	float: right;
+	margin-top: 500px;
+	margin-right: 50px;
+	border-radius: 5%;
+	background-color:ghostwhite;
+	padding: 10px;
+}
+
+.loginview{
+	height:320px;
+	width: 250px;
+	border: 1px solid black;
+	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+	border-radius: 5%;
+	background-color:ghostwhite;
+	padding: 10px;
+}
+.logintitle p{
+	font-size: 30px;
+	color: firebrick;
+	font-weight: bold;
+}
+.infm{
+	width: 350px;
+	height: 250px;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:10px;
+	
+}
+
+.middle_left_bottom{
+	position: relative;
+	left: 50px;
+	top: 300px;
+}
+.middle_left_top{
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.middle_middle{
+	position: relative;
+	left: 420px;
+	top:-350px ;
+}
+.infm p{
+	font-size: 28px;
+	font-weight: bold;
+	color: firebrick;
+}
+.infmtitle{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px dashed grey;
+}
+.infmtitle h4{
+	font-weight: bold;
+	margin-left: 20px;
+}
+.input-group{
+	margin-left: 10px;
+
+	
+}
+.inline{
+	display: flex;
+	flex-direction:row ;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.radios input{
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.radios{
+	margin-top: 10px;
+}
+.button{
+	font-size: 18px;
+	color: white;
+	background-color: dimgrey;
+	border: 1px solid white;
+	width: 100px;
+	height: 40px;
+}
+
+
+.infmtitle1_nav ul li {
+
+	list-style: none;
+	font-size: 16px;
+
+}
+
+.infmtitle1_nav ul li a{
+	text-decoration:none;
+	color:black
+}
+.infmtitle1_nav ul li a:hover{
+	color: red;
+}

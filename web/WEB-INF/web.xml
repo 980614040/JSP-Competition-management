@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+            <welcome-file-list>
+                <welcome-file>/login.jsp</welcome-file>
+            </welcome-file-list>
+
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>hziee.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>project_centerServlet</servlet-name>
+    <servlet-class>hziee.servlet.project_centerServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>project_centerServlet</servlet-name>
+        <url-pattern>*.center</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>uploadServlet</servlet-name>
+        <servlet-class>hziee.servlet.uploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadServlet</servlet-name>
+        <url-pattern>*.up</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CoreServlet</servlet-name>
+        <servlet-class>hziee.servlet.CoreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CoreServlet</servlet-name>
+        <url-pattern>*.delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>competeaddServlet</servlet-name>
+        <servlet-class>hziee.servlet.competeaddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>competeaddServlet</servlet-name>
+        <url-pattern>*.add</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>workupServlet</servlet-name>
+        <servlet-class>hziee.servlet.workupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>workupServlet</servlet-name>
+        <url-pattern>*.workup</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+    <servlet-name>groupchecksServlet</servlet-name>
+    <servlet-class>hziee.servlet.groupchecksServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>groupchecksServlet</servlet-name>
+        <url-pattern>*.checks</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>hziee.servlet.registerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>*.register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GradeupServlet</servlet-name>
+        <servlet-class>hziee.servlet.GradeupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GradeupServlet</servlet-name>
+        <url-pattern>*.gradeup</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
